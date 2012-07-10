@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /*.pdf$
+Disallow: /*.png$
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: .DS_Store
+Disallow: .project
+Disallow: .svn$

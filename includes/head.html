@@ -1,0 +1,19 @@
+ 		<!--#include file="settings.html" -->
+ 		<title><!--#echo var="page_title" --> &bull; <!--#echo var="site_title" --></title>
+ 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><!--#if expr="$google_site_verification != undefined"-->
+ 		<meta name="google-site-verification" content="<!--#echo var="google_site_verification" -->" /><!--#endif -->
+		<link href="assets/styles.css" rel="stylesheet" type="text/css"  media="all"  /><!--#if expr="$exploder_css = true"-->
+	 	<!--[if IE]>
+	 	<link href="assets/exploder.css" rel="stylesheet" type="text/css"  media="all"  />
+	 	<![endif]--><!--#endif --><!--#if expr="$google_analytics_account != undefined"-->
+	 	<!--- Google Analytics Tracking Script --->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', '<!--#echo var="google_analytics_account" -->']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script><!--#endif -->

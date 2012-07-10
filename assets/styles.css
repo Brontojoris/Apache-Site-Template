@@ -1,0 +1,61 @@
+/*CSS Reset*/
+* {
+	font-family: Calibri,Tahoma, sans-serif;
+	font-size: 0.98em;
+}
+body, div, dl, dt, dd, li, pre,form, fieldset, input, textarea, p, blockquote, th, td, button {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+address, caption, cite, code, dfn, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th {
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+}
+acronym, abbr, fieldset, img {
+	border: 0;
+}
+:focus {
+	outline: 0;
+}
+h1 {
+	font-size: 240%
+}
+h2 {
+	font-size: 180%
+}
+h3 {
+	font-size: 160%
+}
+h4 {
+	font-size: 130%
+}
+h5 {
+	font-size: 110%
+}
+h6 {
+	font-size: 100%
+}
+
+.clear {
+	clear: both;
+}
